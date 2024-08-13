@@ -17,7 +17,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    margin: 1.25rem 9.37rem ;
+    margin: 1.75rem 9.37rem ;
 
    
 }
@@ -48,7 +48,7 @@ h2{
     justify-content: space-between;
     padding: 0.25rem 0.625rem;
     margin: 1.25rem 9.37rem;
-    gap: 10.8rem;
+    gap: 12rem;
 
 }
 
@@ -100,7 +100,7 @@ margin-left: 0.625rem;
     position: absolute;
 width: 10.8rem;
 height: 5.6rem;
-left: 65.62rem;
+left: 74.62rem;
 top: 16.25rem;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
@@ -119,9 +119,9 @@ color: #FFFFFF;
 }
 .card2{
     position: absolute;
-width: 10.8rem;
-height: 5.6rem;
-left: 46.18rem;
+width: 11rem;
+height: 6rem;
+left: 56.18rem;
 right: -49.18rem;
 top: 32.81rem;
 bottom: -27.18rem;
@@ -142,6 +142,39 @@ color: #FFFFFF;
     background-image: url(images/Images\ 2.png);
     background-repeat: no-repeat;
     border-image-width: 100%;
+}
+
+.sec-2-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-2-heading{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2.8rem;
+font-weight: 900;
+}
+.sec-2-pera-1{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.9rem;
+font-weight: 400;
+
+}
+.img-div-1 img{
+position: absolute;
+height: 11.25rem;
+weight:11.25rem;
+box-sizing: border-box;
+border-radius: 100%;
+}
+.img-div-1 h5{
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    opacity: 100%;
+    
 }
 
 @media screen and (max-width:576px){
