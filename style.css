@@ -48,7 +48,7 @@ h2{
     justify-content: space-between;
     padding: 0.25rem 0.625rem;
     margin: 1.25rem 9.37rem;
-    gap: 12rem;
+    gap: 20rem;
 
 }
 
@@ -143,6 +143,12 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     border-image-width: 100%;
 }
+.sec-2{
+    height: 33rem;
+    margin-left: 206px;
+    margin-right: 190px;
+    
+}
 
 .sec-2-div-1{
     display: flex;
@@ -154,26 +160,54 @@ color: #FFFFFF;
 font-family: Inter;
 font-size: 2.8rem;
 font-weight: 900;
+margin-bottom: 14px;
 }
 .sec-2-pera-1{
+    margin-top: 0px;
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 0.9rem;
 font-weight: 400;
 
 }
-.img-div-1 img{
-position: absolute;
+.img-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    height: auto;
+}
+.img-div img{
+
 height: 11.25rem;
 weight:11.25rem;
 box-sizing: border-box;
 border-radius: 100%;
 }
-.img-div-1 h5{
+.img-div h5{
     color: #FFFFFF;
     font-size: 1.125rem;
     font-weight: 600;
     opacity: 100%;
+    width: 5.8rem;
+height: 1.3rem;
+    
+}
+.img-div p{
+    height: 22px;
+    margin-bottom: auto;
+}
+.img-para-1{
+    height: 22px;
+    margin-bottom: 10px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+.sec-2-div-2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 5px;
     
 }
 
