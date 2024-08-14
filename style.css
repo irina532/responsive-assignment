@@ -632,6 +632,33 @@ background-size: cover;
 pointer-events: none;
 }
 
+.sec-5-para{
+    font-family: Inter;
+  font-size: 4px;
+  font-weight: 400;
+  /*line-height: 16.8px;*/
+  text-align: left;
+  color:white;
+  width: 30px;
+  height: 7px;
+  gap: 0px;
+  
+  
+}  
+
+.sec-5-para-big{
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 47px;
+  height: 17px;
+  gap: 0px;
+  opacity: 0px;
+}  
+
 .sec-5-child-1 p{
     width: 117px;
   height: 24px;
@@ -812,11 +839,47 @@ pointer-events: none;
   margin-left:10px;
   
   }
+  .footer-cls{
+    background-color: #222222;
+    height: 400px;
+  }
   
-
+.footer-h1{
+    color: rgb(230, 83, 60);
+    box-sizing: border-box;
+    opacity: 100%;
+    font-size: 4.5rem;
+font-weight: 900;
+font-family: "Inter", sans-serif;
+}
 
 .footer-div{
     display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-top: 30px;
+    
+}
+.footer-div-1{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.footer-div-2{
+    display: flex;
+    width: 600px;
+    margin-top: 30px;
+}
+.start-1, .star-2{
+width:300px
+}
+.footer-start{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.8rem;
+font-weight: 600;
+margin-bottom: 14px;
 }
 
 @media screen and (max-width:576px){
