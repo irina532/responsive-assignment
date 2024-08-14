@@ -245,9 +245,17 @@ height: 1.3rem;
     width: 240px;
 height: 36px;
 margin: 0 auto;
+display: flex;
+flex-direction: column;
+padding: 10px 0;
+
+align-items: center;
 
 
 }
+.sec-2-text h5{
+    margin-bottom: 10px;
+} 
 h5{
     padding: 0 auto;
 }
