@@ -605,8 +605,9 @@ h5 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-right: 500px;
+    
 
 }
 
@@ -1123,9 +1124,14 @@ h5 {
         gap: 3.8rem;
 
     }
+    main > section{
+        margin-top: 30px;
+    }
     .sec-2{
         display: flex;
         flex-direction: column;
+        padding: 0.5rem 0.25rem;
+        margin: 0.25rem 4.37rem;
     }
     .sec-2-div-2{
         display: flex;
@@ -1136,6 +1142,14 @@ h5 {
         flex-direction: column;
         max-height: 63rem;
         margin: 0.25rem 4.37rem;
+    }
+    .unique-divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-4-two-divs{
+        display: flex;
+        flex-direction: column;
     }
 
 }
