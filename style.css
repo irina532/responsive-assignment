@@ -154,12 +154,31 @@ span {
     color: #FFFFFF;
     opacity: 100%;
     padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
 
 }
+.icon{
+    box-sizing: border-box;
+    border-radius: 100%;
+width: 35px;
+height: 35px;
+left: 787px;
+top: 584px;
 
-.card1-number {
-    font-size: 2.5rem;
+opacity: 60%;
+}
+
+#card1-number {
+    font-size: 2.3rem;
     font-weight: 900;
+}
+.card1 p{
+    font-size: 12px;
+    font-weight: 200;
 }
 
 .card2 {
@@ -178,9 +197,20 @@ span {
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
     opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 
 
 
+}
+#card2-number{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card-2-child-2{
+    margin-top: 17px;
 }
 
 .sec-1-div-2 {
