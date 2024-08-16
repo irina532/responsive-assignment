@@ -81,9 +81,12 @@ h2 {
 .sec-1 {
     display: flex;
     justify-content: space-between;
-    padding: 0.25rem 0.625rem;
-    margin: 1.25rem 9.37rem;
+    align-items: center;
+    /*padding: 0.25rem 0.625rem;
+    margin: 1.25rem 9.37rem;*/
+    margin: 40px auto;
     gap: 10rem;
+    max-width: 1000px;
     
 }
 .btn-cls{
@@ -218,6 +221,7 @@ opacity: 60%;
     background-image: url(images/Images\ 2.png);
     background-repeat: no-repeat;
     border-image-width: 100%;
+    
 }
 
 .sec-2 {
